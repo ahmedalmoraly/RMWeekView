@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/ramymedhat/RMWeekView.git',
     :tag => '0.1.0'
   }
-  s.source_files = 'RMWeekView/Source/*.{h,m}'
+  s.source_files = 'RMWeekView/OCCalendarView/*.{h,m}', 'RMWeekView/RMWeekView.{h,m}', 'RRMWeekView/NSDate-Utilities.{h,m}'
 end
